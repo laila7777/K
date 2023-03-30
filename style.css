@@ -1,0 +1,827 @@
+nav{
+width: 100%;
+}
+*{margin: 0%; padding: 0%;}
+
+.search {
+position: relative;
+margin-top: 40px;
+width: 1400px;
+border: none;
+border-radius: 6px;
+padding: 10px;
+padding-left: 37px;
+margin-left: 47px;
+font-size: larger;
+box-shadow: 0px 1px 3px #ccc;
+
+
+}
+/* the search icon */
+.fa-magnifying-glass{
+    color: #ccc;
+    position: absolute;
+    font-size: 15px;
+    left: 60px;
+    top: 55px;
+}
+.fa-user{
+    margin-left: 4px;
+    color: #ccc;
+}
+.fa-user:hover{
+    color: black;
+}
+.fa-heart{
+    margin-left: 5px;
+    color: #ccc;
+    font-size: large;
+}
+.fa-heart:hover{
+    color: black;
+}
+.fa-cart-shopping{
+    margin-left: 1px;
+    color: #ccc;
+}
+.fa-cart-shopping:hover{
+    color: black;
+}
+
+.search:focus{
+    outline: none
+}
+
+.line{
+margin-top: 60px;
+flex-wrap: wrap;
+}
+
+.navbar{
+ width: 60%;
+height: 100px;
+background-color:white;
+margin: auto;
+position: fixed;
+margin-left: 300px;
+position: fixed;
+position: relative;
+
+}
+
+hr{
+    margin-top: 50px;
+    color: #cccccccc;
+    box-shadow: 2px 0px 2px 0px #cccccccc;
+}
+
+.navbar ul li {
+float: left;
+justify-content: space-around;
+padding: 30px;
+list-style-type: none;
+}
+
+.navbar ul a{
+text-decoration: none;
+color:gray;
+font-size: 20px;
+
+}
+
+.navbar ul a:hover{
+text-decoration: none;
+font-size: 20px;
+color: purple;
+}
+
+.content{
+    width: 100%;
+    height: 700px;  
+   position: relative;
+    
+}
+
+
+.content img{
+width: 900px;
+height: 700px;
+position: absolute;
+z-index: -1;
+}
+
+.content .text{
+    width: 700px;
+    height: 700px;
+    margin-left: 800px;
+    padding-top: 150px;
+    
+}
+
+.content .text h1{
+    
+    margin-left: 50px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.content .text .lorem{
+    width: 700px;
+    height: 70px;
+    margin-left: 50px;
+  color:gray;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  
+}
+.content .text a{
+   
+    text-decoration: none;
+    font-size: 15px;
+    
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 18px;
+    margin-left: 92px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.content .text a:hover{
+ background-color: #ccc;
+    
+}
+/* the whole section (describe) */
+
+.describe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.describe .free-shipping{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.describe h3{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.describe p{
+    margin-top: 9px;
+    color: gray;
+    width: 300px;
+}
+
+
+
+/* the icons in this section (describe)*/
+.fa-truck{
+    position: absolute;
+    color: blueviolet;
+    margin-right: 1420px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.fa-rotate-right{
+    color: blueviolet;
+    position: absolute;
+    margin-right: 350px;
+    margin-top: 18px;
+    font-size: larger;
+}
+
+.fa-question{
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 690px;
+    margin-top: 10px;
+}
+/* second section (collection) */
+
+.hr2{
+    margin-top: 90px;
+    box-shadow: #f0eded 8px 8px 8px 8px;
+}
+
+.collection{
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 100px;
+    padding-top: 80px;
+    
+    
+}
+.collection img{
+    border: solid 1px black;
+    position: absolute;
+    width:400px; 
+    z-index: -1; 
+   
+}
+.collection .brown-skin{
+    left: 70px;
+}
+.collection .little-girl{
+    left: 550px;
+}
+.collection .brown-boy{
+    right: -50px;
+}
+.collection h3{
+    color: white;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 490px;
+    margin-right: 190px;
+}
+
+.collection h4{
+    position: absolute;
+    color: white;
+    margin-top: 465px;
+   
+}
+
+.feauterd{
+    top: 60px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.collection2{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+.collection2 .div1{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.collection2 .div2{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 140px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+.collection2 .div3{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    position: absolute;
+    right: 150px;
+    top: 140px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+.content-h3{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-left:95px;
+    margin-top: 10px ; 
+}
+.corater{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-left:110px;
+}
+.h5{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: 115px;
+    padding-top: 8px;
+    
+}
+.content-h4{
+    color: #ccc; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small ;
+    margin-left: 55px;
+    padding-top: 8px;
+}
+.content-h5{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: 110px;
+    padding-top: 8px;
+}
+.collection2 .fa-arrow-right{
+    bottom: 40px;
+    margin-left: 120px;
+    color: blueviolet;
+    position: absolute;
+    font-size: larger;
+}
+.collection2 .fa-arrow-left{
+    bottom: 40px;
+    margin-right: 70px;
+    position: absolute;
+    color: blueviolet;
+    font-size: larger;
+}
+/* END OF COLLECTION2 */
+/* ///////////////////////////////////////// ////////////*/
+/* START OF BIG-SALE SECTION */
+
+.big-sale{
+    margin-top: 150px;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    
+}
+.big-sale h3{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+.big-sale img{
+    margin-left: 60px;
+    margin-top: 120px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.big-sale .text h2{
+    position: absolute;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    right: 250px;
+    bottom: 500px;
+}
+.big-sale .text h4{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    color:gray;
+    right: 350px;
+    bottom: 455px;
+}
+.big-sale .text p{
+    position: absolute;
+    color: #ccc;
+    right: 50px;
+    bottom: 350px;
+}
+.big-sale .text a{
+   position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    bottom: 200px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    padding: 18px;
+    margin-left: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.big-sale .text a:hover{
+ background-color: #ccc;
+    
+}
+.last{
+    position: relative;
+    padding-top: 140px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.last h3{
+    padding-bottom: 30px;    
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.last .subscribe{
+    padding-top: 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.last p{
+    padding-top: 10px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.last .div2{
+    margin-top: 50px;
+}
+.last h4{
+    margin-top: 5px;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.last input{
+    padding: 15px;
+}
+.last input:focus{
+    padding: 15px;
+    outline: none;
+}
+.last a{
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    border: blueviolet;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.last .div3 p{
+    padding-top:25px ;
+}
+.last .fa-location-dot{
+    position: absolute;
+    color: blueviolet;
+    right: 450px;
+    margin-top: 25px;
+}
+.last .fa-phone{
+    position: absolute;
+    color: blueviolet;
+    right: 450px;
+    margin-top: 27px;
+}
+.last .fa-envelope{
+    position: absolute;
+    color: blueviolet;
+    right: 450px;
+    margin-top: 26px;
+}
+.last img{
+    margin-right: 80px;
+    margin-bottom: 10px;
+    box-shadow: #ccc 2px 2px 2px 2px;
+}
+.copy h5{
+   
+    width: 1050px;
+    margin-left: 500px;
+    color: gray;
+    bottom: 40px;
+}
+.copy h5 a{
+   text-decoration: none;
+    width: 1050px;
+    
+    color: blueviolet;
+    bottom: 40px;
+}
+/* END OF THE FOOTER PART THE FIRST PAGE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* START OF THE ABOUT  PAGE */
+/* about1 */
+.about1{
+    width: 100%;
+    height: 80px;
+    background-color: gainsboro;
+    color: black;
+    font-size: larger;
+    position: relative;
+    
+}
+.about1 .div1 a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    top: 30px;
+    left: 10px;
+}
+.about1 .div2 a{
+    position: absolute;
+    text-decoration: none;
+    color: blueviolet;
+    top: 30px;
+    left: 90px;
+}
+/* END */
+/* START OF ABOUT2 */
+
+.about2{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    
+}
+.about2 h3{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 1040px;
+    margin-top: 40px;
+}
+.about2 img{
+
+    margin-left: 100px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+
+.about2 .text p{
+    width: 600px;
+    position: absolute;
+    color: #ccc;
+    top: 150px;
+    right: 80px;
+    bottom: 350px;
+}
+/* END OF ABOUT2 */
+/* START OF ABOUT3 */
+.about3{
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+.about3 img{
+    border: solid 1px black;
+    border-radius: 90px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.about3  h3{
+    font-size: xx-large;
+    right: 750px;
+    bottom: 600px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.about3 p{
+    margin-top: 10px;
+    color: gray;
+    width: 200px;
+}
+
+.about4{
+    margin-top: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+  
+    position: relative;
+    
+}
+.about4 .free-shipping{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.about4 h3{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.about4 p{
+    margin-top: 9px;
+    color: gray;
+    width: 300px;
+}
+
+/* the icons in this section (describe)*/
+.fa-truck{
+    position: absolute;
+    color: blueviolet;
+    margin-right: 1420px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.fa-rotate-right{
+    color: blueviolet;
+    position: absolute;
+    margin-right: 350px;
+    margin-top: 18px;
+    font-size: larger;
+}
+
+.fa-question{
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 690px;
+    margin-top: 10px;
+}
+/* END OF THE ABOUT PAGE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* START OF SHOP PAGE */
+
+.gray{
+    width: 100%;
+    height: 80px;
+    background-color: gainsboro;
+}
+ .gray ul {
+    display: flex;
+    margin-left: 10px;
+} 
+
+.gray .shop a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.gray ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.gray ul li {
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.categ{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+.categ .right{
+    
+    width: 500px;
+    height: 900px;
+}
+.categ .left{
+    width: 1082px;
+    height: 1000px;
+}
+.categ .right .divv{
+    margin-top: 100px;
+    margin-left: 35px;
+    width: 400px ;
+    height: 450px;
+    border: 1px solid black;
+}
+.categ .right .divvv{
+    margin-top: 130px;
+    margin-left: 35px;
+    width: 400px ;
+    height: 1300px;
+    border: 1px solid black;
+}
+.categ .right .divv h3{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 200;
+   font-size: 25px;
+   margin: 15px 0px 0px 15px;
+}
+.categ .right .divvv h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 15px 0px 0px 15px;
+}
+.categ .right .divvv h4{
+    margin: 65px 0px 0px 25px;
+    color:gray;
+}
+
+
+/* left */
+.categ .left nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    width: 1082;
+    height: 50px;
+
+}
+.categ .left nav h3{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 200;
+   color: black;
+
+}
+.categ .left nav a{
+   text-decoration: none;
+   background-color: gainsboro;
+   color: black;
+   padding: 8px;
+   height: 20px;
+
+    
+ }
+
+.categ .left .latest{
+    margin-left: 750px;
+    width: 70px;
+}
+
+.categ .left table{
+    margin-top: 60px;
+    margin: 10px 20px 20px 10px;
+    
+}
+
+.categ .left table img{
+    margin: 20px;
+    box-shadow: #ccc 2px 2px 2px 2px;
+    height: 400px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.now{
+    width: 100%;
+    height: 800px;
+   margin-top: 1100px;
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+  padding-top: 250px;
+}
+
+.now img{
+    box-shadow: 2px 2px 2px 2px #ccc;
+    position: absolute;
+    width:400px; 
+    z-index: -1; 
+   
+}
+.now .brown-skin{
+    left: 35px;
+    height: 500px;
+}
+.now .little-girl{
+   left: 550px;
+   height: 500px;
+    
+}
+.now .brown-boy{
+    right: 45px;
+    height: 500px;
+
+}
+
+
+.now .feauterd{
+    top: 40px;
+    font-weight: 200;
+    font-size: 25px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+
